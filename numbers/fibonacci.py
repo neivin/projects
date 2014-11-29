@@ -8,3 +8,10 @@ def fibonacci(n):
         print c,
         a = b
         b = c
+
+def main():
+    n = raw_input("Enter how many Fibonacci numbers you want: ")
+    fibonacci(int(n))
+    
+if __name__ == '__main__':
+    main()
